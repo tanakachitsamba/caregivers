@@ -1,0 +1,19 @@
+{
+  "name": "portfoliobytanaka",
+  "profile": "portfoliobytanaka", 
+  "lambda": {
+    "memory": 512, 
+    "warm": true
+  }, 
+  "regions": ["eu-west-2"], 
+  "static": {
+    "dir": "public",
+    "prefix": "/static/"
+  }, 
+  "stages": {
+    "production": {
+      "domain": "designbytanaka.com", 
+      "zone": "designbytanaka.com"
+    }
+  }
+}
